@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-decoration-line: none;
+}
+
+.logoNavbar div a {
+    font-family: 'Inter', sans-serif;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 18px; /* Exemplo de tamanho 16 pixels, ajuste conforme necessário */
+    /* Ajuste o peso da fonte conforme necessário */
+    font-weight: 500; /* Exemplo de peso 500, ajuste conforme necessário */
+    line-height: 24px;
+}
+
+header {
+    background: #ffffff; /* Cor de fundo da Navbar, adapte conforme necessário */
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoNavbar {
+    display: flex;
+    align-items: center;
+}
+
+.logoNavbar img {
+    max-width: 27px; /* Largura máxima da imagem do logo, adapte conforme necessário */
+    height: auto;
+    margin-right: 8px; /* Espaçamento entre a imagem do logo e o texto, adapte conforme necessário */
+}
+
+.logoNavbar a {
+    text-decoration: none;
+    color: #3A404E; /* Cor do texto alterada para #3A404E */
+}
+
+.content {
+    font-family: 'Inter', sans-serif;
+    color:#667085;
+    display: flex;
+    margin-right: 15%;
+}
+
+.content a {
+    font-family: 'Inter', sans-serif;
+    color:#667085; /* Cor do texto dos links na seção de conteúdo, adapte conforme necessário */
+    text-decoration-line: none;
+    margin: 40px; /* Espaçamento entre os links na seção de conteúdo, adapte conforme necessário */
+}
+
+.login a {
+    font-family: 'Inter', sans-serif;
+    padding: 8px 15px; /* Preenchimento dos links na seção de usuário, adapte conforme necessário */
+    text-decoration: none;
+    border-radius: 5px; /* Raio da borda dos links na seção de usuário, adapte conforme necessário */
+    margin: 12px;
+}
+
+.usuario {
+    color:#667085;
+    padding: 8px 15px; /* Preenchimento dos links na seção de usuário, adapte conforme necessário */
+    border-radius: 5px; /* Raio da borda dos links na seção de usuário, adapte conforme necessário */
+}
+
+.cadastro{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff; /* Cor do texto dos links na seção de usuário, adapte conforme necessário */
+    background:#8E2424;
+    padding: 8px 15px; /* Preenchimento dos links na seção de usuário, adapte conforme necessário */
+    border: 1px solid #ffffff; /* Borda dos links na seção de usuário, adapte conforme necessário */
+    border-radius: 5px; /* Raio da borda dos links na seção de usuário, adapte conforme necessário */
+}

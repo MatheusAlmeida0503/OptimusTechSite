@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.vagas {
+    text-align: center;
+    padding: 50px 20px; /* Ajuste conforme necessário para o espaçamento desejado */
+    background-color: #ffffff; /* Cor de fundo do cabeçalho, ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vagas div {
+    display: inline-table;
+    margin: 20px /* Ajuste conforme necessário para o espaçamento ao redor do componente */
+}
+
+.vagasAbertas {
+    margin-bottom: 20px; /* Ajuste conforme necessário para o espaçamento desejado abaixo do texto em negrito */
+    color: #8E2424; /* Cor do texto em negrito */
+    font-size: 14px; /* Ajuste conforme necessário para o tamanho desejado */
+    font-weight: 500; /* Ajuste conforme necessário para o peso desejado */
+    line-height: 20px; /* Ajuste conforme necessário para a altura da linha desejada */
+}
+
+h1 {
+    color: #101828; /* Cor do título */
+    font-size: 36px; /* Ajuste conforme necessário para o tamanho desejado */
+    font-weight: 600; /* Ajuste conforme necessário para o peso desejado */
+    line-height: 44px; /* Ajuste conforme necessário para a altura da linha desejada */
+}
+
+.vagas p, .vagas h1 {
+    font-family: 'Inter', sans-serif; /* Aplicar a fonte Inter */
+}
+
+.imagensVagasColaboradores {
+    display: flexbox;
+    margin-top: 298px;
+    max-width: 1216px; /* Ajuste conforme necessário para a largura máxima da imagem */
+    max-height: 400px;
+    left: 112px;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.Metricas {
+    font-family: 'Inter', sans-serif; /* Aplicar a fonte Inter */
+    text-align: center;
+    padding: 50px 20px; /* Ajuste conforme necessário para o espaçamento desejado */
+    background-color: #ffffff; /* Cor de fundo das Métricas, ajuste conforme necessário */
+}
+
+.Metricas div {
+    display: inline-table;
+    width: 200px; /* Ajuste conforme necessário para a largura desejada */
+    margin: 64px; /* Ajuste conforme necessário para o espaçamento entre os dados */
+}
+
+h1 {
+    color: #8E2424; /* Cor do título */
+}
+
+h2 {
+    color: #101828; /* Cor do subtítulo */
+}
+
+p {
+    color: #667085; /* Cor do texto do parágrafo */
+}
+
+.Metricas h1 {
+    font-size: 60px; /* Ajuste conforme necessário para o tamanho desejado */
+    color: #8E2424; /* Cor do título */
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.Metricas h2 {
+    font-size: 18px; /* Ajuste conforme necessário para o tamanho desejado */
+    line-height: 28px;
+    color: #101828; /* Cor do subtítulo */
+}
+
+.Metricas p {
+    font-size: 16px; /* Ajuste conforme necessário para o tamanho desejado */
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085; /* Cor do texto do parágrafo */
+}
+
+.Metricas div {
+    flex: 1;
+    text-align: left; /* Alinhe o texto à esquerda dentro de cada bloco de dados */
+}
+
+h1, h2, p {
+    text-align: left; /* Alinhe todos os títulos, subtítulos e parágrafos à esquerda */
+}
+

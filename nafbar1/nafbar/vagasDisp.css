@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.container__trabalhos {
+    padding: 0 33.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    display: block;
+}
+
+.trabalhos__design, .trabalhos__dev {
+    display: flex;
+    flex-direction: column;
+}
+
+.trabalhos__titulo {
+    font-size: 20px; /* Ajuste conforme necessário para o tamanho desejado */
+    font-weight: 500; /* Ajuste conforme necessário para o peso desejado */
+    line-height: 30px;
+    color: #101828; /* Cor do subtítulo */
+    margin-bottom: 64px; /* Adiciona um espaço abaixo do subtítulo */
+}
+
+.trabalhos__vagas {
+    font-size: 18px; /* Ajuste conforme necessário para o tamanho desejado */
+    line-height: 28px;
+    font-weight: 500; /* Ajuste conforme necessário para o peso desejado */
+    color: #101828; /* Cor do subtítulo */ /* Adiciona um espaço abaixo do subtítulo */
+}
+
+.trabalhos__vagas-tipo {
+    display: flex;
+    flex-direction: row; /* Altera a direção do layout para linha */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-bottom: 64px;
+}
+
+.trabalhos__vagas-texto {
+    display:flex;
+    font-size: 16px; /* Ajuste conforme necessário para o tamanho desejado */
+    line-height: 24px;
+    font-weight: 500; /* Ajuste conforme necessário para o peso desejado */
+    color: #667085; /* Cor do subtítulo */
+    margin-top: 32px;
+}
+
+.trabalhos__vagas-texto:nth-child(odd) {
+    margin-right: 64px; /* Espaçamento entre os elementos ímpares */
+}

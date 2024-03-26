@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.cabecalho {
+    text-align: center;
+    padding: 50px 20px; /* Ajuste conforme necessário para o espaçamento desejado */
+    background-color: #ffffff; /* Cor de fundo do cabeçalho, ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    color: #8E2424; /* Cor do subtítulo em negrito */
+    font-family: 'Inter', sans-serif; /* Aplicar a fonte Inter */
+    font-weight: 600; /* Ajustar o peso da fonte */
+    font-size: 16px; /* Ajustar o tamanho da fonte */
+    line-height: 24px; /* Ajustar a altura da linha */
+}
+
+h1 {
+    color: #101828; /* Cor do título */
+    margin-top: 5px; /* Ajuste conforme necessário para posicionar o título abaixo do subtítulo */
+    font-family: 'Inter', sans-serif; /* Aplicar a fonte Inter */
+    font-weight: 600; /* Ajustar o peso da fonte */
+    font-size: 48px; /* Ajustar o tamanho da fonte */
+    margin-bottom: 10px; /* Adicionado para espaço abaixo do título */
+    text-align: center; /* Centralizar horizontalmente */
+    padding: 10px; /* Adicionado para espaço interno */
+    line-height: 60px; /* Ajustar a altura da linha */
+}
+
+p {
+    color: #667085; /* Cor do texto do parágrafo */
+    font-family: 'Inter', sans-serif; /* Aplicar a fonte Inter */
+    font-weight: 400; /* Ajustar o peso da fonte */
+    font-size: 20px; /* Ajustar o tamanho da fonte */
+    line-height: 30px; /* Ajustar a altura da linha */
+}
