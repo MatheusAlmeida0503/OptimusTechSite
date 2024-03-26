@@ -23,7 +23,7 @@ Faça commit de suas alterações (git commit -am 'Adicione uma nova feature').
 Faça push para a branch (git push origin feature/nova-feature).
 Abra um Pull Request.
 Autor
-Este projeto foi desenvolvido por [Seu Nome].
+Este projeto foi desenvolvido por Matheus Almeida Alves dos Santos.
 
 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
